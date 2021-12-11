@@ -1,0 +1,164 @@
+@charset "uft-8";
+/*Adicionando fontes*/
+
+@font-face {
+    font-family: "idroid" ;
+    src: url(fontes/idroid.otf);
+}
+
+
+/*Formatações gerais*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+}
+h1{
+    margin: 0;
+    font-size: 2em;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+a{
+    color: #357150;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*Formatação do header*/
+
+header{
+    background-image: linear-gradient(to bottom, #33b76e, rgb(26, 92,56));
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+}
+header > p{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+header > nav{
+    text-align: left;
+    padding: 10px;
+    background-color:rgba(26, 92, 56, 0.2) ;
+}
+header > nav > a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 10px;
+    font-weight: bold;
+}
+header > nav > a:hover{
+    text-decoration: underline;
+}
+
+/*formatação da main*/
+
+main{
+    max-width: 830px;
+    min-width: 300px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.534);
+
+}
+main img{
+    width: 100%;
+}
+
+#bugdroid{
+    max-width: 100%;
+}
+img.bugdroid{
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+#primeira-sessao {
+    padding: 15px;
+}
+.titulo{
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    color: #195b38;
+}
+.subtitulo{
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #84e1aca9, white );
+    padding-left: 10px;
+    color: #195b38;
+}
+.bugdroid{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+.video{
+    background: #1a5c38; 
+    overflow: hidden;   
+    position: relative;
+    padding-top: 56.25%;
+}
+.video iframe{
+    border: 0;
+   height: 90%;
+   width: 90%;
+   left: 5%;
+   top: 5%;
+   position: absolute;   
+   
+}
+
+/*formatação da area extra*/
+#extra{    
+    background: #c5ebd6;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    margin-top: 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.26);
+}
+#segunda-sessao > h4{
+    color: #fff;
+    background: #2fa766 ;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.26);
+}
+#segunda-sessao{
+    padding: 20px;
+}
+
+#extra > ul > li{
+    list-style: none;
+}
+
+/*rodape*/
+footer{
+    background: #1a5c38 ;
+    padding: 10px;
+    
+}
+footer > P{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #c5ebd6;
+    font-weight: bold;
+}
+.branco{
+    color: white;
+}
+
+
