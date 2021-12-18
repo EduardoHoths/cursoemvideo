@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+:root{
+    --fonte1: verdana, geneva, tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+/* formatação geral*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    min-height: 100vh;
+    min-width: 98vw;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*header*/
+header{
+    background-color: black;
+    color: white;
+    text-align: center ;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps; 
+    font-size: 6vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+/*sections*/
+section{
+    padding: 10vh 0 10vh 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+section > p{
+    padding-bottom: 2em;
+}
+#img01{
+    background: rgb(37, 34, 34) url(imagens/background001.jpg) no-repeat right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img02{
+    background: rgb(37, 34, 34) url(imagens/background002.jpg) no-repeat right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    background-color: rgb(37, 34, 34);
+    color: white; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356);   
+}
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.616);
+    display: inline-block;
+    padding: 5px;
+}
+/*footer*/
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer > p{
+    padding: 10px;
+}
