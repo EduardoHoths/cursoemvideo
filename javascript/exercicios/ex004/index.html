@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS - v2.0</title>
+    <style>
+        body{
+            font: normal 1em arial;
+        }
+        button{
+            width: 200px;
+            height: 100px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Dados v2.0</h1>
+    <button>
+        Clique para começar
+    </button>
+    <p>
+        Aqui vai aparecer o resultado...
+    </p>
+
+    <script>
+        let botao = document.querySelector('button')
+        let p = document.querySelector('p')
+
+        botao.addEventListener('click', clicar)
+
+        function clicar(){
+            let nome = prompt('Qual é o seu nome?')
+            p.innerHTML = `Olá, <strong>${nome}</strong>! É um grande prazer te conhecer!  🖖`
+        }
+    </script>
+</body>
+</html>
