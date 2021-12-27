@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando a idade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font: normal 1em arial;
+        }
+        h1{
+            font: normal 2em 'Pacifico';
+        }
+        button{
+            width: 200px;
+            height: 100px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculando a idade</h1>
+    <button>Iniciar</button>
+    <section>
+        <p>
+            Aqui vai aparecer algo...
+        </p>
+    </section>
+
+    <script>
+        let botao = document.querySelector('button')
+        let resultado = document.querySelector('section')
+
+        botao.addEventListener('click', analisar)
+
+        function analisar(){
+            let anoNasc = Number(prompt('Qual ano você nasceu?'))
+            let agora = new Date()
+            let idade = agora.getFullYear() - anoNasc
+            resultado.innerHTML = `<p>Quem nasceu em ${anoNasc} vai completar <strong>${idade}</strong> anos em ${agora.getFullYear()}.</p>`
+            
+        }
+    </script>
+</body>
+</html>
