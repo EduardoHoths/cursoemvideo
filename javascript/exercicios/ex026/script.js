@@ -11,8 +11,12 @@ function contar() {
 
     if (i == f) {
         res.innerHTML += 'Não é possível contar, pois os números são iguais &#X1F3C1;'
-    } else {
+    } else if(i < f) {
         for(let c = i; c <= f; c++){
+            res.innerHTML += ` ${c} &#X1F449;`
+        }
+    } else {
+        for(let c = i; c >= f; c--){
             res.innerHTML += ` ${c} &#X1F449;`
         }
     }
