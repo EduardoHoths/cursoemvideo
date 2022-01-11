@@ -15,3 +15,7 @@
 * [Acesse os exercicios em página web aqui](https://eduardohoths.github.io/cursoemvideo/javascript/exercicios.html)
 * [Acesse os desafios em página web aqui](https://eduardohoths.github.io/cursoemvideo/javascript/desafios.html)
 
+## Projetos
+
+- [Cordel Moderno](https://github.com/EduardoHoths/cursoemvideo/tree/main/Projetos/projeto-cordel)
+- [História do Mascote Android](https://github.com/EduardoHoths/cursoemvideo/tree/main/Projetos/projeto-site-android)
