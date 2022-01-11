@@ -7,3 +7,11 @@
 * [Acesse os arquivos dos desafios aqui](https://github.com/EduardoHoths/cursoemvideo/tree/main/html-css/desafios)
 * [Acesse os exercicios em página web aqui](https://eduardohoths.github.io/cursoemvideo/html-css/exercicios.html)
 * [Acesse os desafios em página web aqui](https://eduardohoths.github.io/cursoemvideo/html-css/desafios.html)
+
+## Curso de Javascript
+
+* [Acesse os arquivos de exercicios aqui](https://github.com/EduardoHoths/cursoemvideo/tree/main/javascript/exercicios)
+* [Acesse os arquivos dos desafios aqui](https://github.com/EduardoHoths/cursoemvideo/tree/main/javascript/desafios)
+* [Acesse os exercicios em página web aqui](https://eduardohoths.github.io/cursoemvideo/javascript/exercicios.html)
+* [Acesse os desafios em página web aqui](https://eduardohoths.github.io/cursoemvideo/javascript/desafios.html)
+
